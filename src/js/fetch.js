@@ -38,6 +38,10 @@ export default {
         return data.photos;
       })
       .then((result) => {
+        toGetResult(result)
+      });
+      
+      function toGetResult(result) {
         const items = template(result);
         z.insertAdjacentHTML("beforeend", items);
         setTimeout(() => {
@@ -47,7 +51,7 @@ export default {
           });
         }, 0);
         return z;
-      });
+      }
   },
 
   // метод добавления страницы
