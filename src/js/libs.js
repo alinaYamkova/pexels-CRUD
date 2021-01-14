@@ -9,13 +9,13 @@ console.log(client);
 
 // refs.gallery.append(img);
 
-// получаем 1 объект
+////////////// получаем 1 объект
 // client.photos.random().then((obj) => {
 //   console.log(obj);
 //   img.src = obj.src.original;
 // });
 
-// получаем объектов столько, сколько указали в per_page
+/////////// получаем объектов столько, сколько указали в per_page
 // 1
 let query = "lotus";
 
